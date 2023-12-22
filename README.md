@@ -1,4 +1,4 @@
-# amap_base
+# x_amap_base
 
 A new Flutter package.
 

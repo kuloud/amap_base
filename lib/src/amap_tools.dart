@@ -1,4 +1,4 @@
-part of amap_base;
+part of x_amap_base;
 
 const double EARTHRADIUS = 6378137.0;
 

@@ -1,4 +1,4 @@
-part of amap_base;
+part of x_amap_base;
 
 ///高德开放平台用户隐私声明配置
 ///

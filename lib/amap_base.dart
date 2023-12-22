@@ -1,4 +1,4 @@
-library amap_base;
+library x_amap_base;
 
 import 'package:flutter/material.dart';
 import 'dart:math';
