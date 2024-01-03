@@ -1,6 +1,6 @@
 # x_amap_base
 
-A new Flutter package.
+AMap flutter plugin, base dependency library for integrating AMapSDK in applications.
 
 ## Getting Started
 
