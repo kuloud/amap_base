@@ -10,4 +10,4 @@ part 'src/location.dart';
 part 'src/poi.dart';
 part 'src/amap_utils.dart';
 part 'src/amap_privacy_statement.dart';
-part 'src/ui_settings.dart';
+part 'src/options.dart';
