@@ -22,6 +22,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  collection: ^1.19.0
 
 dev_dependencies:
   flutter_test:
