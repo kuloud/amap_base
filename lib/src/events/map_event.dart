@@ -3,7 +3,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import '../types/types.dart';
+import '../../amap_flutter_base.dart';
 
 /// Generic Event coming from the native side of Maps.
 ///
@@ -24,7 +24,7 @@ import '../types/types.dart';
 /// These events are more semantic and pleasant to use than raw generics. They
 /// can be (and in fact, are) filtered by the `instanceof`-operator.
 ///
-/// (See [MethodChannelGoogleMapsFlutter.onCameraMoveStarted], for example)
+/// (See [MethodChannelAMapFlutter.onCameraMoveStarted], for example)
 ///
 /// If your event needs a `position`, alongside the `value`, do
 /// `extends _PositionedMapEvent<ValueType>` instead. This adds a `LatLng position`

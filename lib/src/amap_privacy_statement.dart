@@ -1,5 +1,3 @@
-part of x_amap_base;
-
 ///高德开放平台用户隐私声明配置
 ///
 ///高德SDK合规使用方案请参考：https://lbs.amap.com/news/sdkhgsy
