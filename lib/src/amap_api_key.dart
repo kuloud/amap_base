@@ -36,10 +36,10 @@ class AMapApiKey {
   }
 
   @override
-  bool operator ==(dynamic other) {
+  bool operator ==(Object other) {
     if (identical(this, other)) return true;
     if (runtimeType != other.runtimeType) return false;
-    final AMapApiKey typedOther = other;
+    final AMapApiKey typedOther = other as AMapApiKey;
     return androidKey == typedOther.androidKey && iosKey == typedOther.iosKey;
   }
 
