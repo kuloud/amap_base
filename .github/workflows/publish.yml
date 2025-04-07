@@ -1,16 +1,19 @@
 name: Publish to Pub.dev
 
 on:
-  push
+  push:
+  pull_request:
+    branches:
+      - main
 
 jobs:
   publishing:
     runs-on: ubuntu-latest
     steps:
-      - name: 'Checkout'
+      - name: "Checkout"
         uses: actions/checkout@main # required!
-        
-      - name: '>> Dart package <<'
+
+      - name: ">> Dart package <<"
         id: package_publisher
         uses: k-paxian/dart-package-publisher@master
         with:
