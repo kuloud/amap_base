@@ -39,10 +39,10 @@ class AMapPrivacyStatement {
   }
 
   @override
-  bool operator ==(dynamic other) {
+  bool operator ==(Object other) {
     if (identical(this, other)) return true;
     if (runtimeType != other.runtimeType) return false;
-    final AMapPrivacyStatement typedOther = other;
+    final AMapPrivacyStatement typedOther = other as AMapPrivacyStatement;
     return hasContains == typedOther.hasContains &&
         hasShow == typedOther.hasShow &&
         hasAgree == typedOther.hasAgree;
